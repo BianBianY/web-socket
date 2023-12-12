@@ -9,10 +9,10 @@
         <relativePath/> <!-- lookup parent from repository -->
     </parent>
     <groupId>com.bian</groupId>
-    <artifactId>webSocket</artifactId>
+    <artifactId>web-socket</artifactId>
     <version>0.0.1-SNAPSHOT</version>
     <name>webSocket</name>
-    <description>webSocket</description>
+    <description>web-socket</description>
     <properties>
         <java.version>11</java.version>
     </properties>

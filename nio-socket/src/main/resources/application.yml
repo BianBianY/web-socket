@@ -1,0 +1,13 @@
+nio-server:
+  port: 9999
+  selector-size: 3
+
+thread-pool:
+  core-size: 9
+  max-size: 12
+  queue-capacity: 9999
+  keep-alive-seconds: 60
+  thread-name-prefix: async-service-
+  await-termination-seconds: 20
+  wait-for-jobs-to-complete-on-shutdown: true
+

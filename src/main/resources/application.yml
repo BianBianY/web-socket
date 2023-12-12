@@ -1,0 +1,9 @@
+thread-pool:
+  core-size: 5
+  max-size: 12
+  queue-capacity: 999999999
+  keep-alive-seconds: 60
+  thread-name-prefix: async-service-
+  await-termination-seconds: 20
+  wait-for-jobs-to-complete-on-shutdown: true
+debug: true
